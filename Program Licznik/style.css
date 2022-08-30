@@ -1,0 +1,36 @@
+body{
+	margin:0;
+	padding:0;
+}
+#Global{
+	display:block;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+	margin:4px;
+	margin-left:25%;
+	border:3px groove black;
+	background-color:lightgray;
+	width:50%;
+	border-radius:8%;
+}
+#Licznik{
+	font-size:50px;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:gray;
+}
+input{
+	letter-spacing:1.5px;
+	border-width:0.5px;
+	background-attachment:scroll;
+	border-radius:5%;
+	transition:transform 0.3s;
+	padding:20px;
+}
+input:hover{
+	background-color:gray;
+}
+input:active{
+	transform: scale(110%);
+}
