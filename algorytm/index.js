@@ -6,7 +6,8 @@ function pierwiastek(P, eps){
         a = (a+b)/2;
         b = P/a;
     }
-    return console.log(parseFloat((a+b)/2));
+    const sum  = `${(a + b) /2}`
+    return console.log(sum.slice(0, 6));
 }
 
 
