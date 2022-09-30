@@ -1,7 +1,3 @@
-// const dzien = new Date();
-// let godzina = dzien.getHours();
-// let minuta = dzien.getMinutes();
-// let sekunda = dzien.getSeconds();
 
 
 let spanHours = document.querySelector("#hours");
